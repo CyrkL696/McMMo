@@ -1,0 +1,10 @@
+name: Shadowstep
+lore:
+  - "&7Teleportujesz się za plecy wroga i zadajesz obrażenia."
+mana: 25
+cooldown: 12
+
+damage:
+  base: 7
+  per-level: 2
+ 
