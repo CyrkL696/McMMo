@@ -1,0 +1,13 @@
+name: Critical Slash
+lore:
+  - "&7Potężny cios wręcz, który zawsze trafia krytycznie."
+mana: 30
+cooldown: 15
+
+damage:
+  base: 12
+  per-level: 3
+
+effects:
+  - guaranteed_crit
+ 
