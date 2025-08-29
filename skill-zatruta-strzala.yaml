@@ -1,0 +1,16 @@
+name: Poison Arrow
+lore:
+  - "&7Wystrzeliwujesz zatrutą strzałę, która zatruwa przeciwnika."
+mana: 20
+cooldown: 10
+
+damage:
+  base: 5
+  per-level: 1.5
+
+effects:
+  - potion:
+      type: POISON
+      duration: 5
+      amplifier: 1
+ 
