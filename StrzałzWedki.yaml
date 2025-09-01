@@ -1,0 +1,15 @@
+name: Strzal z Wedki
+type: ACTIVE
+max-level: 1
+cooldown: 10
+mana: 15
+cast:
+  type: PROJECTILE
+  projectile: FISHING_HOOK
+  velocity: 1.5
+  gravity: false
+  on-hit:
+    - type: DAMAGE
+      value: 6
+    - type: BURN
+      duration: 100   # 5s (20t = 1s)
