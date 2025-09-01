@@ -1,0 +1,23 @@
+name: Gravity Pullll
+lore:
+  - '&9Tworzy wir grawitacji'
+  - '&7przyciągający przeciwników do środka.'
+max-level: 5
+
+mana:
+  base: 20
+  per-level: 4
+
+cooldown:
+  base: 12
+  per-level: -1
+
+damage:
+  base: 4
+  per-level: 2
+
+cast:
+  - pull{radius=5;strength=1.5}
+  - damage{amount={damage};radius=5}
+  - particles{type=PORTAL;amount=60;radius=3}
+  - sound{s=entity.ender_dragon.flap;v=1;p=0.6}
