@@ -1,0 +1,14 @@
+name: Arcanist
+display: '&5Arkanista'
+lore:
+  - '&7Mistrz zaklęć astralnych i manipulacji energią.'
+  - '&7Potrafi kontrolować przestrzeń i spowalniać przeciwników.'
+exp-sources:
+  - mobs
+  - quests
+max-level: 50
+
+skills:
+  - ARCANE_BOLT
+  - GRAVITY_PULL
+  - TIME_WARP
