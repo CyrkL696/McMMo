@@ -1,0 +1,9 @@
+name: Mocfilecika
+type: ACTIVE
+max-level: 1
+cooldown: 20
+mana: 25
+cast:
+  type: HEAL
+  value: 16
+  target: SELF
