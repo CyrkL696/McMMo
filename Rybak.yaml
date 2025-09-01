@@ -1,0 +1,19 @@
+name: Rybak
+display: "&bRybak"
+lore:
+  - "&7Specjalista od wędki i ucieczek."
+  - "&7Potrafi leczyć i podpalać przeciwników."
+attributes:
+  health: 20
+  mana: 100
+  stamina: 100
+  knockback-resistance: 0
+options:
+  default-level: 1
+  max-level: 50
+  mana-regeneration: 5
+  stamina-regeneration: 5
+skills:
+  strzal_z_wedki: 1
+  mocfilecika: 5
+  spierdolprzeddeszczem: 10
