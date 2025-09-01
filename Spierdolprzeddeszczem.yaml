@@ -1,0 +1,11 @@
+name: Spierdolprzeddeszczem
+type: ACTIVE
+max-level: 1
+cooldown: 60
+mana: 30
+cast:
+  type: POTION_EFFECT
+  effect: SPEED
+  level: 2
+  duration: 600   # 30s (20t = 1s)
+  target: SELF
