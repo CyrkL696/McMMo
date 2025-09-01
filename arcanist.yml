@@ -9,6 +9,6 @@ exp-sources:
 max-level: 50
 
 skills:
-  - ARCANE_BOLT
-  - GRAVITY_PULL
-  - TIME_WARP
+  - arcane_bolt
+  - gravity_pull
+  - time_warp
