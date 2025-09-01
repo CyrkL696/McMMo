@@ -1,0 +1,18 @@
+name: Time Warp
+lore:
+  - '&eSpowalnia czas wokół ciebie'
+  - '&7spowalniając wszystkich przeciwników.'
+max-level: 3
+
+mana:
+  base: 18
+  per-level: 3
+
+cooldown:
+  base: 15
+  per-level: -1
+
+cast:
+  - potion{type=SLOW;duration=80;level=2;radius=6}
+  - particles{type=REVERSE_PORTAL;amount=50;radius=4}
+  - sound{s=block.beacon.activate;v=1;p=0.7}
