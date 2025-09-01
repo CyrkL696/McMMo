@@ -1,9 +1,33 @@
-name: Mocfilecika
-type: ACTIVE
-max-level: 1
-cooldown: 20
-mana: 25
-cast:
-  type: HEAL
-  value: 16
-  target: SELF
+strzal_z_wedki:
+  name: "Strzał z Wędki"
+  type: ACTIVE
+  material: FISHING_ROD
+  cooldown: 10
+  mana: 15
+  cast:
+    type: DAMAGE
+    value: 6
+
+mocfilecika:
+  name: "Mocfilecika"
+  type: ACTIVE
+  material: APPLE
+  cooldown: 20
+  mana: 25
+  cast:
+    type: HEAL
+    value: 16
+    target: SELF
+
+spierdolprzeddeszczem:
+  name: "Spierdolprzeddeszczem"
+  type: ACTIVE
+  material: FEATHER
+  cooldown: 60
+  mana: 30
+  cast:
+    type: POTION_EFFECT
+    effect: SPEED
+    level: 2
+    duration: 600
+    target: SELF
