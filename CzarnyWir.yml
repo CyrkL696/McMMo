@@ -1,0 +1,19 @@
+name: "&0Czarny Wir"
+lore:
+- "&8Tworzysz wir spaczonej energii."
+- "&7Wciąga przeciwników, zadając obrażenia i"
+- "&7wyrzucając ich w powietrze."
+material: ENDER_EYE
+type: ACTIVE
+cooldown:
+  base: 12.0
+mana:
+  base: 15.0
+cast:
+  type: DAMAGE
+  value: 6
+effects:
+  - particle{particle=SMOKE_LARGE;amount=100;radius=4;speed=0.1}
+  - particle{particle=PORTAL;amount=60;radius=3;speed=0.1}
+  - sound{sound=entity.ender_dragon.growl;volume=1.0;pitch=1.0}
+  - knockback{value=2;upward=1.0}
