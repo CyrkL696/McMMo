@@ -1,0 +1,17 @@
+name: "&5Cień Otchłani"
+lore:
+- "&8Mistrz spaczonej magii i zaklęć otchłani."
+- "&7Specjalizuje się w iluzjach i rytuałach."
+- "&7Posługuje się zaklęciami dystansowymi i kontrolą pola walki."
+exp-curve: linear
+max-level: 50
+mana:
+  base: 50
+  per-level: 10
+health:
+  base: 20
+  per-level: 2
+skill-slots:
+- slot: 0
+  type: active
+  skill: CzarnyWir
