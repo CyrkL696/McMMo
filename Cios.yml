@@ -1,0 +1,7 @@
+name: Cios
+type: MELEE
+material: IRON_SWORD
+cooldown: 3
+mana: 10
+damage: 15
+description: '&7Zadaje obrażenia przeciwnikowi w zwarciu'
