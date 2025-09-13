@@ -1,0 +1,194 @@
+MenuKlasy:
+  title: "Wybierz swoja klase"
+  size: 54
+  items:
+
+    #################################################
+    # Elyonidzi – 9 klas po 6 podklas
+    #################################################
+
+    # Wojownik
+    Elyonidzi_Wojownik_1:
+      displayname: "&6Niebiański Egzekutor"
+      lore:
+        - "Podklasa Paladyn Światła"
+        - "Mistrz walki mieczem i młotem"
+      command: "/class set Elyonidzi_Wojownik"
+      slot: 0
+
+    Elyonidzi_Wojownik_2:
+      displayname: "&6Krzyżowiec"
+      lore:
+        - "Podklasa Krzyżowiec"
+        - "Ogłusza przeciwników, chroni drużynę"
+      command: "/class set Elyonidzi_Wojownik"
+      slot: 1
+
+    Elyonidzi_Wojownik_3:
+      displayname: "&6Mistrz Młota"
+      lore:
+        - "Podklasa Mistrz Młota"
+        - "Knockback + obrażenia"
+      command: "/class set Elyonidzi_Wojownik"
+      slot: 2
+
+    Elyonidzi_Wojownik_4:
+      displayname: "&6Rycerz Tronów"
+      lore:
+        - "Podklasa Rycerz Tronów"
+        - "Regeneracja drużyny"
+      command: "/class set Elyonidzi_Wojownik"
+      slot: 3
+
+    Elyonidzi_Wojownik_5:
+      displayname: "&6Obrońca Zaklęty"
+      lore:
+        - "Podklasa Obrońca Zaklęty"
+        - "Odporność na magię i ciemność"
+      command: "/class set Elyonidzi_Wojownik"
+      slot: 4
+
+    Elyonidzi_Wojownik_6:
+      displayname: "&6Egzekutor Płomienia"
+      lore:
+        - "Podklasa Egzekutor Płomienia"
+        - "AoE i duże obrażenia"
+      command: "/class set Elyonidzi_Wojownik"
+      slot: 5
+
+    # Mag Elyonidów (przykład 6 podklas)
+    Elyonidzi_Mag_1:
+      displayname: "&eBlaskostrzelec"
+      lore:
+        - "Podklasa Ognisty Promień"
+      command: "/class set Elyonidzi_Mag"
+      slot: 6
+
+    Elyonidzi_Mag_2:
+      displayname: "&eAurysta"
+      lore:
+        - "Podklasa Aurysta – buff i debuff"
+      command: "/class set Elyonidzi_Mag"
+      slot: 7
+
+    Elyonidzi_Mag_3:
+      displayname: "&eBłyskotliwy Strateg"
+      lore:
+        - "Podklasa iluzjonista"
+      command: "/class set Elyonidzi_Mag"
+      slot: 8
+
+    Elyonidzi_Mag_4:
+      displayname: "&eŚwietlisty Arkanista"
+      lore:
+        - "Podklasa AoE i damage"
+      command: "/class set Elyonidzi_Mag"
+      slot: 9
+
+    Elyonidzi_Mag_5:
+      displayname: "&eMistyk Płomienia"
+      lore:
+        - "Podklasa bonus dmg dla drużyny"
+      command: "/class set Elyonidzi_Mag"
+      slot: 10
+
+    Elyonidzi_Mag_6:
+      displayname: "&eLuminarz"
+      lore:
+        - "Podklasa leczenie drużyny"
+      command: "/class set Elyonidzi_Mag"
+      slot: 11
+
+    #################################################
+    # Aetherianie – 9 klas × 6 podklas
+    #################################################
+
+    # Wojownik
+    Aetherianie_Wojownik_1:
+      displayname: "&bEteryczny Obrońca"
+      lore:
+        - "Astralny Rycerz"
+      command: "/class set Aetherianie_Wojownik"
+      slot: 12
+
+    Aetherianie_Wojownik_2:
+      displayname: "&bGwiezdny Wojownik"
+      lore:
+        - "Ogłuszenie i AoE"
+      command: "/class set Aetherianie_Wojownik"
+      slot: 13
+
+    Aetherianie_Wojownik_3:
+      displayname: "&bEteryczny Mistrz"
+      lore:
+        - "Kontrola pola walki"
+      command: "/class set Aetherianie_Wojownik"
+      slot: 14
+
+    Aetherianie_Wojownik_4:
+      displayname: "&bKosmiczny Bastion"
+      lore:
+        - "Buff obronny"
+      command: "/class set Aetherianie_Wojownik"
+      slot: 15
+
+    Aetherianie_Wojownik_5:
+      displayname: "&bTytan Eteru"
+      lore:
+        - "Silne obrażenia"
+      command: "/class set Aetherianie_Wojownik"
+      slot: 16
+
+    Aetherianie_Wojownik_6:
+      displayname: "&bObrońca Gwiazd"
+      lore:
+        - "Bonus dmg na plugastwo"
+      command: "/class set Aetherianie_Wojownik"
+      slot: 17
+
+    #################################################
+    # Sylfaryci – 9 klas × 6 podklas
+    #################################################
+
+    # Wojownik
+    Sylfaryci_Wojownik_1:
+      displayname: "&aObrońca Harmonii"
+      lore:
+        - "Strażnik Gaju"
+      command: "/class set Sylfaryci_Wojownik"
+      slot: 18
+
+    Sylfaryci_Wojownik_2:
+      displayname: "&aMistrz Miecza Życia"
+      lore:
+        - "AoE i heal drużyny"
+      command: "/class set Sylfaryci_Wojownik"
+      slot: 19
+
+    Sylfaryci_Wojownik_3:
+      displayname: "&aRycerz Równowagi"
+      lore:
+        - "Regeneracja drużyny"
+      command: "/class set Sylfaryci_Wojownik"
+      slot: 20
+
+    Sylfaryci_Wojownik_4:
+      displayname: "&aObrońca Pierwotny"
+      lore:
+        - "Bonus do odporności"
+      command: "/class set Sylfaryci_Wojownik"
+      slot: 21
+
+    Sylfaryci_Wojownik_5:
+      displayname: "&aStrażnik Święty"
+      lore:
+        - "Pasywny buff sojuszników"
+      command: "/class set Sylfaryci_Wojownik"
+      slot: 22
+
+    Sylfaryci_Wojownik_6:
+      displayname: "&aEgzekutor Harmonii"
+      lore:
+        - "Duże AoE i damage"
+      command: "/class set Sylfaryci_Wojownik"
+      slot: 23
