@@ -1,0 +1,6 @@
+name: Blok
+type: PASSIVE
+material: SHIELD
+cooldown: 0
+mana: 0
+description: '&7Zmniejsza otrzymywane obrażenia o 50%'
