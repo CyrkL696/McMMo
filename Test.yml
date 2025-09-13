@@ -1,0 +1,11 @@
+menu_title: '&6Test Menu'
+open_command:
+  - testmenu
+size: 9
+items:
+  'item1':
+    material: DIAMOND
+    slot: 0
+    display_name: '&aTest Item'
+    left_click_commands:
+      - '[player] say Test działa!'
