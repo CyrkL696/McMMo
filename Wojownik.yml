@@ -1,0 +1,27 @@
+name: Wojownik
+description: 'Silny frontowy wojownik, zadaje i przyjmuje dużo obrażeń'
+health: 120
+mana: 40
+speed: 0.2
+skills:
+  - Cios
+  - Blok
+subclasses:
+  Tank:
+    description: 'Wytrzymały tank, chroni drużynę'
+    skills:
+      - Blok
+      - Pchnięcie
+      - Tarcza
+  DPS:
+    description: 'Zadaje duże obrażenia przeciwnikom'
+    skills:
+      - Cios
+      - Szarża
+      - Wir
+  Gladiator:
+    description: 'Specjalista od pojedynków 1v1'
+    skills:
+      - Cios
+      - Odrzut
+      - Parada
