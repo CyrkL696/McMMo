@@ -1,0 +1,111 @@
+# =====================================================
+# Elyonidzi – Synowie Tronów
+# =====================================================
+Elyonidzi_Wojownik:
+  display: "Niebiański Egzekutor"
+  race_abilities:
+    Pieczęć_Elyona: {detect_corruption: true, radius: 15}
+    Świetlisty_Miecz: {damage_type: "physical+magic"}
+  classes:
+    Paladyn_Światła: {cooldown: 8, damage: 10, aoe: 3, effect: "aura ochrony sojuszników"}
+    Krzyżowiec: {cooldown: 6, damage: 12, aoe: 2, effect: "ogłuszenie przeciwników"}
+    Mistrz_Młota: {cooldown: 7, damage: 9, aoe: 4, effect: "knockback"}
+    Rycerz_Tronów: {cooldown: 5, damage: 8, effect: "regen drużyny"}
+    Obrońca_Zaklęty: {cooldown: 12, effect: "odporność na magię i ciemność"}
+    Egzekutor_Płomienia: {cooldown: 10, damage: 11, aoe: 5}
+
+Elyonidzi_Mag:
+  display: "Blaskostrzelec"
+  race_abilities:
+    Pieczęć_Elyona: {bonus_dmg_on_corruption: true}
+  classes:
+    Ognisty_Promień: {cooldown: 6, damage: 12, aoe: 3, effect: "ogłuszenie"}
+    Aurysta: {cooldown: 5, effect: "spowolnienie wrogów, buff sojuszników"}
+    Błyskotliwy_Strateg: {cooldown: 7, effect: "iluzje dezorientujące"}
+    Świetlisty_Arkanista: {cooldown: 8, damage: 10, aoe: 4}
+    Mistyk_Płomienia: {cooldown: 6, damage: 9, effect: "bonus dmg drużyny"}
+    Luminarz: {cooldown: 10, effect: "leczenie drużyny"}
+
+Elyonidzi_Łowca:
+  display: "Święty Tropiciel"
+  race_abilities:
+    Aurorowe_Strzały: {magic_damage: true, pierce_defense: true}
+  classes:
+    Łucznik_Prawdy: {cooldown: 5, damage: 8, aoe: 2, effect: "przebicie przeszkód"}
+    Snajper_Elyona: {cooldown: 8, damage: 12, effect: "bonus dmg na plugastwo"}
+    Tropiciel_Cienia: {cooldown: 6, effect: "widzenie niewidzialnych"}
+    Strzelec_Światła: {cooldown: 5, effect: "leczenie sojuszników per trafienie"}
+    Łowca_Demonów: {cooldown: 7, damage: 10, effect: "bonus dmg na plugastwo"}
+    Cichy_Tropiciel: {cooldown: 4, effect: "bonus do uniku i szybkości strzałów"}
+
+Elyonidzi_Slayer:
+  display: "Pogromca Demonów"
+  race_abilities:
+    Pieczęć_Elyona: {bonus_dmg_on_corruption: true}
+  classes:
+    Duchowy_Pogromca: {cooldown: 6, damage: 10, aoe: 3}
+    Wybawiciel_Mgły: {cooldown: 5, damage: 9}
+    Egzekutor_Harmonii: {cooldown: 7, damage: 8, aoe: 4}
+    Pogromca_Cienia: {cooldown: 6, damage: 11, effect: "bonus dmg na plugastwo"}
+    Siewca_Światła: {cooldown: 8, damage: 10, effect: "przebija obronę wroga"}
+    Niezłomny_Egzektor: {cooldown: 10, damage: 12}
+
+Elyonidzi_Szaman:
+  display: "Szept Harmonii"
+  race_abilities:
+    Pieczęć_Elyona: {detect_corruption: true}
+  classes:
+    Mgławicowy_Szept: {cooldown: 6, effect: "oczyszczenie debuffów"}
+    Błogosławieństwo_Gwiazd: {cooldown: 7, effect: "leczenie drużyny"}
+    Szept_Burzy_Harmonii: {cooldown: 8, effect: "balans ofensywy/wsparcia"}
+    Modlitewny_Strażnik: {cooldown: 6, effect: "aura ochronna drużyny"}
+    Pieśniarz_Harmonii: {cooldown: 7, effect: "wzmocnienie ofensywy drużyny"}
+    Strażnik_Dusz: {cooldown: 10, effect: "neutralizacja debuffów"}
+
+Elyonidzi_Summoner:
+  display: "Przywoływacz Harmonii"
+  race_abilities:
+    Pieczęć_Elyona: {detect_corruption: true}
+  classes:
+    Duchy_Świetliste: {cooldown: 6, aoe: 3, effect: "3 duchy, dmg + regen drużyny"}
+    Strażnicy_Mgły: {cooldown: 7, aoe: 4, effect: "spowalnianie wrogów"}
+    Herold_Harmonii: {cooldown: 5, effect: "ofensywa + buff drużyny"}
+    Przywoływacz_Eteryczny: {cooldown: 8, aoe: 3, effect: "wsparcie drużyny"}
+    Mistrz_Harmonii: {cooldown: 10, effect: "synchronizacja duchów"}
+    Strażnik_Aura: {cooldown: 7, effect: "defensywne przywołania"}
+
+Elyonidzi_Kapłan:
+  display: "Kapłan Harmonii"
+  race_abilities:
+    Pieczęć_Elyona: {detect_corruption: true}
+  classes:
+    Leczący_Przewodnik: {cooldown: 5, effect: "leczenie drużyny"}
+    Aura_Ochrony: {cooldown: 6, effect: "pasywny buff obrony"}
+    Świetlisty_Opiekun: {cooldown: 7, effect: "wsparcie ofensywy + regen drużyny"}
+    Mistyk_Harmonii: {cooldown: 6, effect: "balans ofensywy/wsparcia"}
+    Inspirator_Światła: {cooldown: 7, effect: "wzmocnienie czarów drużyny"}
+    Strażnik_Duszy: {cooldown: 8, effect: "neutralizacja debuffów"}
+
+Elyonidzi_Assassin:
+  display: "Skrytobójca Harmonii"
+  race_abilities:
+    Pieczęć_Elyona: {detect_corruption: true}
+  classes:
+    Cień_Mgły: {cooldown: 4, effect: "niewidzialność + szybkie ataki"}
+    Duchowy_Egzekutor: {cooldown: 6, effect: "eliminacja kluczowych celów"}
+    Strażnik_Tajemnic: {cooldown: 7, effect: "pułapki duchowe"}
+    Niszczyciel_Cienia: {cooldown: 6, effect: "bonus dmg na plugastwo"}
+    Skrytobójca_Aura: {cooldown: 5, effect: "bonus do uniku + dmg"}
+    Cichy_Egzekutor: {cooldown: 4, effect: "szybkie krytyki"}
+
+Elyonidzi_Mnich:
+  display: "Mnich Harmonii"
+  race_abilities:
+    Pieczęć_Elyona: {detect_corruption: true}
+  classes:
+    Uderzenie_Energii: {cooldown: 5, damage: 8, effect: "dmg + leczenie drużyny"}
+    Mistyk_Rytmu: {cooldown: 6, effect: "spowolnienie wrogów, kontrola pola"}
+    Obrońca_Aury: {cooldown: 7, effect: "aura leczenia dla drużyny"}
+    Mnich_Balansu: {cooldown: 6, effect: "balans ofensywy/wsparcia"}
+    Mistrz_Dyscypliny: {cooldown: 7, effect: "bonus do uniku i odporności"}
+    Siewca_Harmonii: {cooldown: 8, effect: "wzmacnia regen i dmg drużyny"}
