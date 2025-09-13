@@ -1,0 +1,7 @@
+name: Szarza
+type: MELEE
+material: IRON_HORSE_ARMOR
+cooldown: 5
+mana: 15
+damage: 12
+description: '&7Przyspiesza w kierunku przeciwnika z obrażeniami'
